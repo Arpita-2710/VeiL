@@ -21,4 +21,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <h2>Register</h2>
 <form method="post">
     Username: <input type="text" name="username" required><br>
-    Password: <input type
+    Password: <input type="password" name="password" required><br>
